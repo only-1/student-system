@@ -1,0 +1,119 @@
+
+/* 问答样式 */
+.askButton{
+	margin-top: 26px;
+
+}
+.askIndexAddType{
+	width: 38px;
+}
+.askIndexAddType .askIndex{
+	width: 38px;
+	height: 38px;
+	background-color: #f8a50b;
+	line-height: 38px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+}
+.askIndexAddType .askType{
+	height:100px;
+	line-height:28px;
+	text-align: center;
+	color: #f8a50b;
+	font-size: 15px;
+	margin-left: 9px;
+	width: 20px;
+}
+.askContentAddOption{
+	margin-left: 22px;
+	width:1060px;
+}
+.askConent{
+	font-size: 14px;
+	color: #333333;
+	line-height: 26px;
+}
+.askIcon{
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #ffffff;
+	background-image: url('../images/ask.png')
+}
+.askQuestionContent{
+	width: 1000px;
+	margin-left: 10px;
+}
+.respond{
+	margin-top: 20px;
+}
+.respondIcon{
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #ffffff;
+	background-image: url('../images/respond.png')
+}
+.respondQuestionContent{
+	width: 1000px;
+	margin-left: 10px;
+}
+.askQuestionDetail{
+	margin-top: 10px;
+	border: 1px solid #b9b9b9;
+	padding: 22px 0px 30px 30px;
+	background-color: #f2f2f2;
+}
+.askQuestionTrueOrFalse{
+	line-height: 27px;
+}
+/* 答案正确图标 */
+.questionTrue{
+	width: 27px;
+	height: 27px;
+	background-image: url('../images/questionTrue.png');
+}
+/* 答案错误图标 */
+.questionFalse{
+	width: 27px;
+	height: 27px;
+	background-image: url('../images/questionFalse.png');
+}
+/* 答案警告图标 */
+.questionWaring{
+  width: 27px;
+  height: 27px;
+  background-image: url('../images/questionWaring.png');
+}
+.myAskQuestion{
+	line-height: 27px;
+	margin-left: 10px;
+	max-width:1015px;
+}
+.myAskQuestion i{
+	color:#1bbd82;
+}
+/* 问答题不同答案的样式 */
+.yourAskQuestion .yourQuestionTrue{
+	color:#1bbd82;
+}
+.yourAskQuestion .yourQuestionFalse{
+	color:#ee6b6b;
+}
+.askQuestionAnalysis{
+	margin-top: 22px;
+}
+.askQuestionAnalysis .askAnalysisTit{
+	font-size: 16px;
+	color: #f8a50b;
+	margin-bottom: 10px;
+}
+.askAnalysisContent{
+	width: 1050px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333333;
+}

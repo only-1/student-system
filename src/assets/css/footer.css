@@ -1,0 +1,15 @@
+/* 底部开始 */
+.footer{
+	width: 100%;
+	min-width: 1200px;
+	height:84px;
+	padding-top: 39px;
+	padding-bottom: 40px;
+	background-color: #444547;
+}
+.footerAdress,.footerHao,.footerLogo{
+	text-align: center;
+	font-size: 14px;
+	color: #808080;
+	padding: 3px 0;
+}

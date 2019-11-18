@@ -1,0 +1,35 @@
+/* 填空 */
+.examFillings{
+	padding-bottom: 22px;
+	border-bottom: 1px solid #e4e4e4;
+	margin-bottom: 12px;
+}
+.examFillingsIndex{
+	width: 67px;
+	font-size: 14px;
+	color: #f8a50b;
+  margin-top: 4px;
+}
+.examFillingTitle{
+	width: 48px;
+	background-color:#ffffff;
+	border: 1px solid #f8a50b;
+	color: #333333;
+	border-radius: 3px;
+	text-align: center;
+}
+.examFillingConent{
+	width: 735px;
+	font-size: 14px;
+	margin-left: 14px;
+}
+.examFillingConent span{
+  line-height: 30px;
+}
+.examFillingConent input{
+	outline: none;
+	padding-left: 5px;
+  margin: 0 5px;
+}
+
+

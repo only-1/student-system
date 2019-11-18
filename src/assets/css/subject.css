@@ -1,0 +1,150 @@
+
+/* 条件查询开始 */
+.subjectSearchInputName{
+  width: 258px;
+  height: 42px;
+  border-radius: 5px;
+  margin:0px 20px;
+}
+.subjectSearchInput{
+	height: 58px;
+	padding-top: 20px;
+}
+.subjectSearchInput input{
+  width: 258px;
+  height: 42px;
+  padding-left: 10px;
+  outline: none;
+  border: 1px solid #cbcbcb;
+}
+.subjectSearch{
+	width: 100%;
+	height: 78px;
+	background-color: #f6f6f6;
+	margin:26px 0;
+}
+.subjectSearch .especialback{
+	background-color: #f6f6f6;
+}
+.subjectSearchTit{
+	height: 78px;
+	line-height: 78px;
+	margin-left: 32px;
+	font-size: 21px;
+	color: #333333;
+	font-weight: bold;
+}
+.subjectSearchBtn{
+	width: 100px;
+	height: 44px;
+	margin-left: 20px;
+	background-color: #f7a60a;
+	position: relative;
+}
+.subjectSearchBtn span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -7px;
+	margin-top: -8px;
+}
+.subjectSearchBtn submit{
+	width: 100%;
+	height: 100%;
+}
+/* 条件查询结束 */
+
+
+/* 课程分类开始 */
+.subjectClassifyTabTit{
+	height: 40px;
+}
+.subjectClassifyTabTitList li{
+	float: left;
+	font-size: 24px;
+	color: #333333;
+	padding-bottom: 5px;
+  font-weight: bold;
+  border-bottom: 3px solid #f8a50b;
+}
+.subjectClassifyTabTitSort{
+	height:100%;
+}
+.subjectClassifyTabTitSortList{
+	height: 100%;
+	line-height: 100%;
+}
+.subjectClassifyTabTitSortList p{
+	height: 100%;
+	line-height: 40px;
+	float: left;
+	font-size: 14px;
+	margin-left: 13px;
+}
+.subjectClassifyTabTitSortList .sortName{
+	color: #f8a50b;
+}
+.sortNew em,.sortRot em{
+	font-size: 14px;
+}
+/* 排序图标状态开始 */
+.subjectClassifyTabTitSortList .fontActive{
+	font-weight: bold;
+}
+.sortNew i,.sortRot i{
+	width: 6px;
+	height: 10px;
+	background-image: url('../images/down_default.png')
+}
+.subjectClassifyTabTitSortList .down_active{
+	background-image: url('../images/down_active.png')
+}
+.subjectClassifyTabTitSortList .up_active{
+	background-image: url('../images/up_active.png')
+}
+.subjectClassifyTabTitSortList .up_active{
+	background-image: url('../images/up_default.png')
+}
+/* 排序图标状态结束 */
+
+/* 列表开始 */
+.subjectClassifyTabContent{
+	padding-top:29px;
+	border-top: 1px solid #e0e0e0;
+}
+.subjectTabContentList li{
+	float: left;
+	width: 271px;
+	margin-left:38px;
+	margin-bottom: 42px;
+}
+
+
+/*控制第一个跟第五个的样式*/
+.subjectTabContentList li:first-child{
+  margin-left:0px;
+}
+.subjectTabContentList li:nth-child(5){
+  margin-left:0px;
+}
+
+
+
+.subjectTabContentImg{
+	width: 100%;
+	height: 177px;
+	position: relative;
+}
+.subjectTabContentImg img{
+	width: 100%;
+	height: 100%;
+}
+
+.subjectTabContentTit{
+	height: 18px;
+	line-height: 18px;
+	font-size: 18px;
+	margin-top: 20px;
+	color: #333333;
+}
+

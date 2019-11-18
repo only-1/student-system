@@ -1,0 +1,72 @@
+/* 头部开始 */
+.header{
+	width:100%;
+	min-width: 1200px;
+	height: 76px;
+	background-color: #1b1b1b;
+}
+.headerWrapper{
+	height: 100%;
+}
+.headerlogo,.headerIndex{
+	height: 76px;
+	line-height: 76px;
+}
+.headerlogo img{
+	vertical-align: middle;
+}
+.headerIndex{
+	margin-left:155px;
+}
+.headerList li{
+	float: left;
+	margin-left:50px;
+}
+.headerList .headerActive a{
+  color:#f7a60a;
+}
+.headerList .headerListFirst{
+	margin-left:0px
+}
+.headerList li a{
+	color: #fefefe;
+	font-size: 18px;
+}
+.headerList li:hover a{
+	color: #f8a50b;
+	cursor: pointer;
+}
+.studentList{
+	position: absolute;
+	top: 76px;
+	left: 0px;
+	width: 125px;
+	height: 257px;
+	background-color:#ffffff;
+	display: none;
+	z-index: 5;
+}
+.studentCenter:hover .studentList{
+	cursor: pointer;
+	display: block;
+}
+.studentCenter{
+	position: relative;
+}
+.headerList li .active{
+	color: #f8a50b;
+}
+.studentList p{
+	font-size: 14px;
+	color: #999999;
+	margin-left: 28px;
+	margin-top:20px;
+	height: 15px;
+	line-height: 15px;
+}
+.studentList p:hover{
+	color: #333333;
+}
+
+/* 头部结束 */
+

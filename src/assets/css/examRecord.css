@@ -1,0 +1,129 @@
+/* 面包屑 */
+.pageNavList{
+  padding: 20px 0;
+  width: 1100px;
+}
+.pageNavOption{
+  height:15px;
+  line-height: 15px;
+}
+.pageNavOption span{
+  font-size: 14px;
+  color: #333333;
+}
+.pageNavOption i{
+  width: 5px;
+  height: 10px;
+  margin: 3px 7px 0;
+  background-image: url('../images/details_right.png');
+}
+.pageNavList .pageNavOption:last-child i{
+  display: none;
+}
+.examHistory{
+	margin-top: 15px;
+}
+.examHistotyDetail{
+	border: 1px solid #d7d6d6;
+	margin-bottom: 12px;
+}
+.examHistotyDetailOption{
+	height: 64px;
+}
+.examHistotyDetailOption{
+	 padding: 28px 0 28px 35px;
+}
+.examHistotyDetailTit{
+	width: 320px;
+	font-size: 21px;
+	color: #333333;
+	font-weight: bold;
+	height: 64px;
+	line-height: 64px;
+}
+.examHistotyDetailList li{
+	float: left;
+	border-left: 1px solid #d7d6d6;
+	height: 64px;
+	padding: 0 35px;
+}
+.examGoal{
+	font-size: 16px;
+	color: #999999;
+	font-weight: bold;
+	margin-bottom:16px;
+  text-align: center;
+}
+.goalGrade{
+	font-size: 21px;
+	color: #f8a50b;
+	font-weight: bold;
+  text-align: center;
+  background-color: #fff7e7;
+}
+.submitTime{
+	font-size: 21px;
+	color: #333333;
+	font-weight: bold;
+  text-align: center;
+}
+.errorNumber{
+	padding: 36px 54px 27px 34px;
+}
+.statisticsList li{
+	float: left;
+	font-size: 16px;
+	color: #333333;
+	height: 16px;
+	line-height: 16px;
+	margin-left: 10px;
+
+}
+.trueNumber i{
+	color: #1bbd82;
+}
+.falseNumber i{
+	color: #ee6b6b;
+}
+.noRespond i{
+	color: #333333;
+}
+.errorIndex{
+	padding-top: 22px;
+}
+.errorIndex li{
+	float:left;
+	margin-left: 6px;
+	margin-top: 6px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	line-height: 25px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+}
+.errorIndex .trueNumberBack{
+	background-color: #2ad093;
+}
+.errorIndex .falseNumberBack{
+	background-color: #ff5e5e;
+}
+.errorIndex .nullNumberBack{
+  background-color: #999999;
+}
+.examHistoryAll{
+	border: 1px solid #d7d6d6;
+}
+.examHistoryNotice{
+	padding: 0 62px 82px 13px;
+}
+.examHistoryTit{
+	font-size: 21px;
+	color: #333333;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom: 4px solid #f8a50b;
+}
+

@@ -1,0 +1,461 @@
+
+/* 面包屑 */
+.pageNavList{
+  padding: 20px 0;
+}
+.pageNavOption{
+  height:15px;
+  line-height: 15px;
+}
+.pageNavOption span{
+  font-size: 14px;
+  color: #333333;
+}
+.pageNavOption i{
+  width: 5px;
+  height: 10px;
+  margin: 3px 7px 0;
+  background-image: url('../images/details_right.png');
+}
+.pageNavList .pageNavOption:last-child i{
+  display: none;
+}
+
+
+/* 公开课介绍 */
+.publicIntroduceCon{
+  padding: 22px 0px 26px 30px;
+  border: 1px solid #d7d6d6;
+}
+.showImg{
+  width: 552px;
+  height: 280px;
+}
+.showImg img{
+  width: 100%;
+  height: 100%;
+}
+.detailIntroduce{
+  width:587px;
+  height: 280px;
+  margin-left: 28px;
+}
+.publicName{
+  height: 18px;
+  line-height: 18px;
+}
+.publicName span{
+  font-size: 18px;
+  color: #999999;
+}
+.publicName i{
+  font-size: 18px;
+  color: #333333;
+}
+.MakeUser,.labels,.grade,.studentUserCount{
+  height: 12px;
+  line-height: 12px;
+  margin-top: 22px;
+}
+.MakeUser span,.labels span,.grade span,.studentUserCount span{
+  font-size: 12px;
+  color: #999999;
+}
+.MakeUser i,.labels i,.grade i,.studentUserCount i{
+  font-size: 12px;
+  color: #333333;
+}
+.startStudent{
+  width: 100%;
+  margin-top:50px;
+}
+.startBtn{
+  width: 116px;
+  height: 40px;
+  border-radius: 2px;
+  background-color:#f8a50b;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.myGrade{
+  margin-top:10px;
+  margin-right: 50px;
+}
+.myGrade p{
+  margin-right: 15px;
+}
+
+
+/* 公开课描述 */
+.publicDescription{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.descriptionCon{
+  padding: 27px 37px 0px 23px;
+  border: 1px solid #d7d6d6;
+}
+.descriptionTit{
+  font-size:21px;
+  color: #333333;
+  font-weight: bold;
+  padding-bottom:17px;
+  border-bottom: 4px solid #f8a50b;
+}
+.detailDescription{
+  padding: 13px 0px 47px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 24px;
+}
+.principal{
+  height: 67px;
+  padding:15px 0 13px 29px;
+  border: 1px solid #d7d6d6;
+  border-top: none;
+  background-color: #fafafa;
+}
+.principalPeople{
+  color: #333333;
+  font-size: 14px;
+  font-weight: bold;
+  height: 14px;
+  line-height: 14px;
+  margin-top:18px;
+}
+.principalName{
+  margin-left: 12px;
+}
+.principalName p{
+  width: 100%;
+  font-size: 14px;
+  color: #999999;
+  text-align: center;
+}
+
+
+
+/* 评论、问答、笔记开始 */
+.respondTabTit{
+  height: 81px;
+}
+.publicRespondWrapper{
+  border: 1px solid #d7d6d6;
+}
+.respondTabTitList{
+  border-bottom: 1px solid #d7d6d6;
+}
+.respondTabTitList li{
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  color: #333333;
+  padding: 22px 30px 28px 30px;
+  cursor: pointer;
+}
+.respondTabTitList li:hover{
+  border-bottom: 3px solid #f8a50b;
+}
+.replyPitchOn{
+  border-bottom: 3px solid #f8a50b;
+}
+
+
+.switchBtn{
+  font-size: 14px;
+  color: #999999;
+}
+.respondTabCon{
+  padding: 32px 50px 80px 44px;
+}
+
+.respondBorder{
+  position: relative;
+}
+.respondBorder textarea{
+  width: 1080px;
+  height: 78px;
+  border: 1px solid #999;
+  padding: 10px;
+  resize: none;
+  outline: none;
+}
+.respondBorder .fontSizeCount{
+  position: absolute;
+  right: 20px;
+  top: 78px;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+.submitInput{
+  width: 1102px;
+  margin-top: 12px;
+  text-align: right;
+}
+.submitBtn{
+  width: 78px;
+  height: 32px;
+  border-radius: 3px;
+  background-color:#f8a50b;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/* 评论列表 */
+.reviewList{
+  padding-top: 25px;
+}
+.reviewListUl li{
+  padding-top:18px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #c3c3c3;
+}
+
+
+.reviewHead{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:blue;
+}
+.reviewDetail{
+  width: 1030px;
+  margin-left: 13px;
+  font-size: 12px;
+}
+
+.reviewName{
+  color: #999999;
+}
+.reviewSource{
+  color: #333333;
+  margin-left: 13px;
+}
+.reviewFontSize{
+  margin-top: 12px;
+  font-size: 14px;
+  color: #333333;
+  width: 1050px;
+  word-break: break-all;
+}
+
+
+
+.reviewCount{
+  text-align: right;
+  margin-top: 14px;
+}
+.reviewLessThree{
+  width: 21px;
+  height: 21px;
+  background-color:#f8a50b;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 21px;
+  text-align: center;
+  border-radius: 50%;
+}
+.greaterThree{
+  width: 40px;
+  height: 21px;
+  background-color:#f8a50b;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 21px;
+  text-align: center;
+  border-radius:10px;
+}
+.myReview{
+  color:#f8a50b;
+  font-size: 14px;
+  cursor: pointer;
+}
+.reviewDisplayBlock{
+  font-size: 14px;
+}
+
+
+
+
+
+.myReviewBox{
+  width:256px;
+  height: 99px;
+  padding: 14px 21px 9px 21px;
+  background-color: #e9e9e9;
+  margin-top: 10px;
+  position: relative;
+}
+.triangleIcon{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #e9e9e9;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+.myReviewBox textarea{
+  width: 246px;
+  height:50px;
+  padding: 5px;
+  resize: none;
+  outline: none;
+}
+.myReviewCount{
+  position: absolute;
+  right: 35px;
+  top: 58px;
+  font-size: 12px;
+  color: #bbbbbb;
+}
+.myReviewBoxBtn{
+  margin-top:7px;
+  font-size: 12px;
+  color:#ffffff;
+}
+.myReviewBoxBtn span{
+  width: 58px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.myReviewBoxBtn .myReviewTrue{
+  background-color:#f8a50b;
+}
+.myReviewBoxBtn .myReviewFalse{
+  background-color:#c1c1c1;
+  margin-left:7px;
+}
+
+
+
+
+.reviewReply{
+  width: 292px;
+  padding: 15px 18px 18px 18px;
+  background-color: #e9e9e9;
+  position: relative;
+  margin-top: 15px;
+}
+.reviewTriangleIcon{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #e9e9e9;
+  position: absolute;
+  top: -10px;
+  right:100px;
+}
+.reviewReplyClose{
+  width: 10px;
+  height: 10px;
+  background-image: url('../images/close.png');
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.reviewReplyList li{
+
+}
+.reviewReplyList .reviewReplyLi{
+  border-bottom:1px solid #d1d1d1;
+  padding-top: 15px;
+  padding-bottom: 18px;
+}
+.reviewReplyHead{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.reviewReplyDetail{
+  width: 235px;
+  margin-left: 12px;
+}
+.reviewReplyContent{
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 10px;
+}
+.reviewReplyName{
+  font-size: 12px;
+  width:235px;
+  text-align: left;
+}
+
+
+
+
+.chapterName1{
+  width: 200px;
+  word-break: break-all;
+}
+.chapterName1 span{
+  font-size: 16px;
+  color: #333333;
+}
+.chapterName1 .nameLength1{
+  width: 185px;
+}
+.chapterProgress{
+  width: 800px;
+  position: absolute;
+  right: 50px;
+  top:50%;
+  margin-top: -9px;
+}
+.el-progress-bar__inner{
+  background-color: #f8a50b;
+}
+.publicChapterLi{
+  position: relative;
+  margin-bottom: 18px;
+}
+
+
+
+
+.curriculumChapterLi{
+  padding: 30px 10px;
+  border-bottom:1px dashed #d7d6d6;
+}
+.examMargin{
+  padding:0 20px;
+}
+
+
+.courseChapterList{
+  padding-top: 7px;
+}
+.courseChapterList .courseChapterLi{
+  padding: 7px 15px;
+  cursor: pointer;
+}
+.courseTitFont{
+  font-size: 18px;
+}
+.courseTitFont2{
+  font-size: 15px;
+}
+
+
+.courseBlock{
+  display: inline-block;
+  *display:inline;
+  *zoom: 1;
+  width: 200px;
+}

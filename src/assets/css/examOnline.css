@@ -1,0 +1,298 @@
+/* 头开始 */
+.examBorder{
+	border: 1px solid #e3e3e3;
+	background-color: #ffffff;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.el-progress-bar__inner{
+  background-color: #f8a50b;
+ }
+.examPadding{
+	padding:15px 20px 23px;
+}
+.examTitRecord{
+  width: 1140px;
+  min-width: 1140px;
+	background-color: #f1f1f1;
+	padding: 0 30px;
+  margin: 0 auto;
+}
+.examTitRecord span{
+	color: #333333;
+	font-size: 14px;
+}
+.examTitRecord .examQuestionType{
+	font-size: 18px;
+  width: 230px;
+}
+.examAllGrade{
+	margin-left:80px;
+}
+.examAllNum{
+	font-weight: bold;
+	padding: 0 7px;
+}
+.allNumber{
+	padding: 0 7px;
+}
+
+/* 进度条开始 */
+.examProgress{
+	width: 418px;
+	height: 18px;
+}
+/* 进度条结束 */
+
+
+/* 试题、时间开始 */
+.examTimeAddQuestion{
+	margin-top: 12px;
+}
+
+.examOverTime{
+	width: 243px;
+	height:302px;
+	border: 1px solid #e3e3e3;
+}
+.examCountDown{
+	height: 58px;
+	line-height: 58px;
+	padding: 0 15px;
+	font-size: 14px;
+	color: #333333;
+}
+.examCountDownIcon{
+	width: 23px;
+	height: 23px;
+	background-image: url('../images/clocks_exam.png');
+}
+.TwoPadding{
+	padding: 0 10px;
+}
+.examCountDown .examCountDownTime{
+	color:#f8a50b;
+}
+
+
+.answerSheet{
+	height: 52px;
+	background-color: #e8e8e5;
+	position: relative;
+}
+.examAnswer{
+	font-size: 14px;
+	color: #333333;
+	line-height: 52px;
+	text-align: center;
+  cursor: pointer;
+}
+.examAnswer span{
+	margin-left: -40px;
+}
+.answerSheetList{
+	position: absolute;
+	top: 0;
+	left: 245px;
+	width: 508px;
+	height: 358px;
+	border: 1px solid #c0c0c0;
+	background-color: #ffffff;
+	z-index: 10;
+}
+.answerSheetListTit{
+	height: 58px;
+	line-height: 58px;
+	padding-left: 18px;
+	padding-right: 20px;
+	border-bottom: 1px solid  #c0c0c0;
+}
+.answerClose{
+	width: 13px;
+	height: 13px;
+	margin-top: 24px;
+	background-image: url('../images/answerCloses.png');
+  cursor: pointer;
+}
+.numberIndex{
+	height: 211px;
+	padding: 34px 20px 0px 26px;
+	overflow-y: scroll;
+}
+.numberIndexList li{
+	height: 32px;
+	float: left;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-left: 5px;
+  cursor: pointer;
+}
+ .numberIndexList li span{
+ 	float: left;
+ 	width: 38px;
+ 	height: 32px;
+ 	line-height: 32px;
+ 	text-align: center;
+ 	color: #ffffff;
+ 	border-radius: 3px;
+ 	background-color: #3a3a3a;
+ }
+.numberIndexList .readyComplate{
+	background-color: #f8a50b;
+}
+ .numberIndexList li i{
+ 	float: left;
+ 	width: 66px;
+ 	height: 32px;
+ 	line-height: 32px;
+ 	margin-left: 5px;
+ }
+.numberFooter{
+	height: 17px;
+	line-height: 17px;
+	padding: 20px 20px 20px 26px;
+}
+.numberFooter span{
+	float: left;
+}
+.numberFooter .readlyOver{
+	font-size: 14px;
+	color: #333333;
+	margin-left: 10px;
+}
+.readlyBackOver{
+	width: 15px;
+	height: 15px;
+	background-color:#f8a50b;
+	margin-left:5px;
+	margin-top: 1px;
+}
+.readlyBackNo{
+	width: 15px;
+	height: 15px;
+	background-color:#3a3a3a;
+	margin-left: 5px;
+	margin-right: 15px;
+	margin-top: 1px;
+}
+.readlyOverTip{
+	font-size: 12px;
+	color: #999999;
+}
+.submitSheet{
+	height: 52px;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 52px;
+	text-align: center;
+	background-color: #f8a50b;
+  cursor: pointer;
+}
+.exitExam{
+	padding: 41px 93px 47px 93px;
+}
+.exitExam p{
+  cursor: pointer;
+}
+.exitExam p span{
+	width: 36px;
+	height: 24px;
+	margin-left: 10px;
+	background-image: url('../images/exit.png')
+}
+.exitExam p i{
+	font-size: 14px;
+	color: #f8a50b;
+}
+/* 右边题型开始 */
+
+.questionTypes{
+	width: 838px;
+	padding:28px 20px 30px 28px;
+	border: 1px solid #ebebeb;
+  overflow-y: scroll;
+  position: relative;
+}
+
+
+
+/* 提问、笔记弹出框开始 */
+.submitPlayLayerBack{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	background-color:rgba(0, 0, 0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+}
+.submitPlayLayer{
+	width: 456px;
+	height: 286px;
+	background-color: #fafafa;
+	border-radius: 3px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left:-228px;
+	margin-top: -143px;
+}
+.submitPlayLayerTit{
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	color: #333333;
+	padding:16px 12px 16px 14px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.submitPlayLayerTit i{
+  cursor: pointer;
+}
+
+.submitPlayLayerTip{
+	padding-top: 83px;
+	padding-left: 44px;
+}
+.submitPlayLayerTip span{
+	float: left;
+	font-size:16px;
+	color: #333333;
+}
+.overTipIcon{
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+	margin-top: -5px;
+	background-image: url('../images/notice.png');
+}
+.submitPlayLayerTip .residueNum{
+	padding: 0 5px;
+	color:#f8a50b;
+}
+.submitPlayLayerBtn{
+	height:31px;
+	padding: 80px 26px 16px 26px;
+	text-align:right;
+	margin: 0 auto;
+}
+.submitPlayLayerBtn span{
+	width: 86px;
+	height: 32px;
+	text-align: center;
+	margin-left: 8px;
+	line-height: 31px;
+	color:#ffffff;
+	font-size: 12px;
+	background-color:#f8a50b;
+	border-radius: 3px;
+  cursor: pointer;
+}
+.submitPlayLayerBtn .nextAnswer{
+	background-color: #ffffff;
+	color: #333333;
+	border: 1px solid #dddddd;
+}
+/* 提问、笔记弹出框结束 */
+
+

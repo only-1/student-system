@@ -1,0 +1,126 @@
+
+/* 条件查询开始 */
+.publicSearch{
+	width: 100%;
+	height: 78px;
+	background-color: #f6f6f6;
+	margin:26px 0;
+}
+.publicSearch .especialback{
+	background-color: #f6f6f6;
+}
+.searchTit{
+	height: 78px;
+	line-height: 78px;
+	margin-left: 32px;
+	font-size: 21px;
+	color: #333333;
+	font-weight: bold;
+}
+.searchBtn{
+	width: 100px;
+	height: 44px;
+	margin-left: 20px;
+	background-color: #f7a60a;
+	position: relative;
+}
+.searchBtn span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -7px;
+	margin-top: -8px;
+}
+.searchBtn submit{
+	width: 100%;
+	height: 100%;
+}
+.searchInput{
+	height: 58px;
+	padding-top: 20px;
+}
+.searchInput input{
+	width: 258px;
+	height: 42px;
+	padding-left: 10px;
+	margin-left: 20px;
+	outline: none;
+	border: 1px solid #cbcbcb;
+}
+/* 条件查询结束 */
+
+/* 考试开始 */
+.examTabTit{
+	height: 40px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.examTabTitList li{
+	float: left;
+	font-size: 24px;
+	color: #333333;
+	padding-bottom: 5px;
+  margin-left: 32px;
+  cursor: pointer;
+}
+.examTabTitList li:hover{
+	font-weight: bold;
+	border-bottom: 4px solid #f8a50b;
+}
+.examTabTitListSelected{
+  font-weight: bold;
+  border-bottom: 4px solid #f8a50b;
+  margin-left: 32px;
+}
+.examTabTitMargin{
+	margin-left: 32px;
+}
+.examTabTitSort{
+	height:100%;
+}
+.examTabTitSortList{
+	height: 100%;
+	line-height: 100%;
+}
+.examTabCon{
+	padding-bottom: 78px;
+	padding-top: 16px;
+}
+.examTabCon .toTest:last-child{
+	border-bottom: none;
+}
+.toTest{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px dashed #c3c3c3;
+}
+.toTestTit{
+	width: 570px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 18px;
+	color: #333333;
+	margin-left: 10px;
+}
+.toTestTime{
+	width: 620px;
+	height: 80px;
+}
+.clockTime{
+	padding-top: 26px;
+	height: 54px;
+}
+.separator{
+	width: 88px;
+	height: 1px;
+	background-color:#999999;
+	margin: 39px 20px 0px;
+}
+.timeList{
+	margin-left: 16px;
+	height: 80px;
+	line-height: 80px;
+}
+/* 考试结束 */
+.examConList li{
+  cursor: pointer;
+}

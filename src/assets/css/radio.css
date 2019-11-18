@@ -1,0 +1,104 @@
+
+/* 单选样式 */
+.radioButton{
+	margin-top: 26px;
+
+}
+.IndexAddType{
+	width: 38px;
+}
+.IndexAddType .radioIndex{
+	width: 38px;
+	height: 38px;
+	background-color: #f8a50b;
+	line-height: 38px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+}
+.IndexAddType .radioType{
+	height:100px;
+	line-height:28px;
+	text-align: center;
+	color: #f8a50b;
+	font-size: 15px;
+	margin-left: 9px;
+	width: 20px;
+}
+.radioConent{
+	font-size: 14px;
+	color: #333333;
+	line-height: 26px;
+}
+.ContentAddOption{
+	margin-left: 22px;
+	width:1060px;
+}
+
+.radioOption{
+	margin-top: 64px;
+}
+.radioOptionLi{
+	margin-bottom: 20px;
+}
+.radioOptionLi span{
+	font-size: 16px;
+	color: #333;
+}
+.radioOptionLi .optionLetter{
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+}
+.radioOptionLi .optionContent{
+	margin-left: 15px;
+	height: 25px;
+	line-height: 25px;
+}
+/* 选中的答案 */
+.radioOptionLi .chooseQuestion{
+	background-image: url('../images/chooseQuestion.png');
+	color: #ffffff;
+}
+.testQuestionDetail{
+	margin-top: 10px;
+	border: 1px solid #b9b9b9;
+	padding: 22px 0px 30px 30px;
+	background-color: #f2f2f2;
+}
+.questionTrueOrFalse{
+	line-height: 27px;
+}
+/* 答案正确图标 */
+.questionTrue{
+	width: 27px;
+	height: 27px;
+	background-image: url('../images/questionTrue.png');
+}
+/* 答案错误图标 */
+.questionFalse{
+	width: 27px;
+	height: 27px;
+	background-image: url('../images/questionFalse.png');
+}
+.myQuestion{
+	margin-left: 10px;
+}
+.myQuestion i{
+	color:#1bbd82;
+}
+.questionAnalysis{
+	margin-top: 22px;
+}
+.questionAnalysis .analysisTit{
+	font-size: 16px;
+	color: #f8a50b;
+	margin-bottom: 10px;
+}
+.analysisContent{
+	width: 1050px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333333;
+}

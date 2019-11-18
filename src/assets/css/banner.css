@@ -1,0 +1,191 @@
+/* banner开始   */
+.publicBanner{
+	width:100%;
+	min-width: 1200px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.publicBanner .publicBannerWapper{
+	height: 100%;
+	position: relative;
+	z-index: 3;
+}
+.bannerList{
+	position:absolute;
+	width: 100%;
+	height: 400px;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+.bannerList li{
+	width: 1920px;
+	height: 400px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.publicBannerWapper:hover .bannerArrow{
+  display: block;
+}
+.bannerList li img{
+	width:100%;
+	height: 100%;
+}
+.bannerArrow{
+	width: 890px;
+	height: 70px;
+	position: absolute;
+	left:50%;
+	top: 50%;
+	margin-left:-295px;
+	margin-top: -35px;
+	z-index:4;
+  display: none;
+}
+.bannerArrow i{
+	width: 40px;
+	height:70px;
+}
+.bannerArrow .leftArrow{
+	background-image: url('../images/left_arrow_banner.png');
+}
+.bannerArrow .rightArrow{
+	background-image: url('../images/right_arrow_banne.png');
+}
+.bannerDot{
+	position: absolute;
+	bottom: 20px;
+	right:5%;
+	z-index:4
+}
+.bannerDot li{
+	float: left;
+	width: 6px;
+	height: 6px;
+	border: 1px solid #cccccc;
+	margin-left: 10px;
+	background-color: #333333;
+	cursor: pointer;
+}
+
+
+.bannerFixed{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 5;
+	width: 290px;
+	height: 100%;
+	background-color:rgba(0, 0, 0,0.75);
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);*/
+}
+.bannerFixedList .bannerEveryOne{
+	width: 100%;
+}
+/* 一级菜单开始 */
+.bannerFixedList .bannerEveryOne:last-child .menuOneTitle{
+	border:none;
+}
+.menuOneTitle{
+	margin: 0 auto;
+	width: 246px;
+	height: 55px;
+	line-height: 55px;
+	border-bottom: 1px solid rgba(200,200,200,0.75);
+	position: relative;
+}
+.menuOneTitle span{
+	position: absolute;
+	left: 0px;
+	top:50%;
+	margin-top: -12.5px;
+	width: 25px;
+	height: 25px;
+	background-image: url('../images/internet.png')
+}
+.menuOneTitle a{
+	width: 200px;
+	height: 55px;
+	line-height: 55px;
+	position: absolute;
+	left:42px;
+	top:0;
+	font-size: 18px;
+	color: #fefffa;
+	border: none;
+}
+/* 一级菜单结束 */
+
+/* 二级菜单开始 */
+.menuTwoflex{
+	width: 910px;
+	height: 400px;
+	background-color: #ffffff;
+	position: absolute;
+	left:290px;
+	top: 0px;
+	z-index: 10;
+	display: none;
+}
+.menuTwoList{
+	padding-top: 32px;
+}
+.menuTwoOption{
+	width: 811px;
+	height: 52px;
+	padding: 0px 53px 0px 46px;
+}
+.menuTwoOption .menuTwoTitle{
+	color: #f7a50c;
+	font-size: 16px;
+  width: 90px;
+}
+.menuThreeflex{
+	margin-left: 13px;
+	height: 100%;
+	width:690px;
+	overflow: hidden;
+}
+.menuThreeOption{
+  height: 22px;
+  line-height: 22px;
+}
+.menuThreeOption span{
+	padding-left: 19px;
+	font-size: 14px;
+	color:#323232;
+  float: left;
+}
+.menuThreeOption i{
+	margin-left: 19px;
+	color: #cccccc;
+}
+/* 二级菜单结束 */
+
+/* hover开始 */
+.menuThreeOption .menuThreeTitle:hover{
+	color: #f7a50c;
+	cursor: pointer;
+}
+.bannerFixedList .bannerEveryOne:hover{
+	background-color: #ffffff;
+}
+.bannerFixedList .bannerEveryOne:hover .menuOneIcon{
+	position: absolute;
+	left: 0px;
+	top:50%;
+	margin-top: -12.5px;
+	width: 25px;
+	height: 25px;
+	background-image: url('../images/internet_hover.png')
+}
+.bannerFixedList .bannerEveryOne:hover .menuOneTitle{
+	color: #f7a50c;
+}
+.bannerFixedList .bannerEveryOne:hover .menuTwoflex{
+	display: block;
+}

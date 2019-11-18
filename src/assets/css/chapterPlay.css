@@ -1,0 +1,494 @@
+.playHead{
+	width: 100%;
+	padding: 38px 0px;
+	background-color: #14191e;
+}
+.playMenu{
+	padding-left: 22px;
+	height: 14px;
+    line-height: 14px;
+}
+.playMenu i{
+    font-size: 14px;
+    color: #6b6b6b;
+}
+.playMenu span{
+	font-size: 14px;
+	color: #5c5e61;
+	margin-left: 5px;
+}
+/* 导航结束 */
+
+
+.playBanner{
+	width: 100%;
+	background-color: #000000;
+	position: relative;
+	overflow: hidden;
+}
+.playLeft{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width:100%;
+	height:100%;
+	min-width:800px;
+	padding-right: 450px;
+}
+.playRight{
+	width: 275px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #14191e;
+	padding: 19px 26px 0px 25px;
+}
+.playTit{
+	height: 14px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #b4bbbf;
+}
+.playList{
+	padding-top:15px;
+  max-height: 610px;
+  overflow-y: scroll;
+}
+.playList::-webkit-scrollbar
+     {
+           width: 0px;
+}
+.playListOneTit{
+	height: 12px;
+	line-height: 12px;
+	color: #787d82;
+	font-size: 12px;
+}
+.playListDetail{
+	padding-top: 24px;
+	padding-left: 15px;
+}
+.playListTwo{
+	color: #787d82;
+	font-size: 12px;
+	margin-bottom: 18px;
+  padding: 1px 2px;
+}
+.playListDetail .activePlay{
+  background-color: #303133;
+}
+.playChapterTit{
+  width: 192px;
+}
+.playListTwo .playChapterTimeLong,.playListTwo .playChapterTit{
+	margin-left:3px;
+  margin-top: -3px;
+}
+.noPlay{
+	width: 11px;
+	height: 11px;
+	background-image: url('../images/noPlay.png')
+}
+.overPlay{
+	width: 11px;
+	height: 11px;
+	background-image: url('../images/overPlay.png')
+}
+.playing{
+	width: 11px;
+	height: 11px;
+	background-image: url('../images/playing.png')
+}
+
+
+
+.handleMenu{
+	position: absolute;
+	top: 50%;
+	margin-top: -95px;
+	left: -46px;
+}
+.handleMenu li{
+	width: 46px;
+	height: 49px;
+	background-color: #363c40;
+	margin-bottom:2px;
+	padding-top: 12px;
+	color: #b4bbbf;
+}
+.handleMenu li img{
+	margin: 0 auto;
+}
+.handleMenu li p{
+	font-size: 12px;
+	text-align: center;
+}
+.handleMenu li p:last-child{
+	padding-top: 5px;
+}
+.handleMenu .chapterAvtive{
+	background-color: #f8a50b;
+	color: #ffffff;
+}
+.handleChapterIcon i{
+  font-size: 18px;
+}
+
+
+
+/* 提问、笔记弹出框开始 */
+.playLayerBack{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	background-color:rgba(0, 0, 0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+}
+.playLayer{
+	width: 454px;
+	height: 223px;
+	background-color: #fafafa;
+	border-radius: 3px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left:-227px;
+	margin-top: -111px;
+}
+.playLayerTit{
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	color: #333333;
+	padding:16px 12px 16px 26px;
+}
+.playLayerTextarea{
+	height: 100px;
+	text-align: center;
+	position:relative;
+}
+.playLayerTextarea textarea{
+	height:80px;
+	width: 383px;
+	padding:10px;
+	background-color:#e5e5e5;
+	resize: none;
+	outline: none;
+	border:0 none;
+}
+.layerCount{
+	font-size: 12px;
+	color: #999;
+	position: absolute;
+	right: 30px;
+	bottom: 5px;
+}
+.playLayerBtn{
+	width: 403px;
+	height:31px;
+	padding: 20px 0;
+	text-align:right;
+	margin: 0 auto;
+}
+.playLayerBtn span{
+	width: 85px;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+	color:#ffffff;
+	font-size: 12px;
+	background-color:#f8a50b;
+	border-radius: 3px;
+}
+/* 提问、笔记弹出框结束 */
+
+
+
+
+/* 评论、问答、笔记开始 */
+.playRespond{
+	margin-top: 20px;
+}
+.respondTabTitPlay{
+  height: 81px;
+}
+.playRespondWrapper{
+  border: 1px solid #d7d6d6;
+}
+.respondTabTitListPlay{
+  border-bottom: 1px solid #d7d6d6;
+}
+.respondTabTitListPlay li{
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  color: #333333;
+  padding: 22px 30px 28px 30px;
+}
+.respondTabTitListPlay li:hover{
+  border-bottom: 3px solid #f8a50b;
+}
+.replyPitchOn{
+  border-bottom: 3px solid #f8a50b;
+}
+
+
+.switchBtnPlay{
+  font-size: 14px;
+  color: #999999;
+}
+.respondTabConPlay{
+  padding: 32px 50px 80px 44px;
+}
+
+.respondBorderPlay{
+  position: relative;
+}
+.respondBorderPlay textarea{
+  width: 1080px;
+  height: 78px;
+  border: 1px solid #999;
+  padding: 10px;
+  resize: none;
+  outline: none;
+}
+.respondBorderPlay .fontSizeCountPlay{
+  position: absolute;
+  right: 20px;
+  top: 78px;
+  font-size: 14px;
+  color: #bbbbbb;
+}
+.submitInputPlay{
+  width: 1102px;
+  margin-top: 12px;
+  text-align: right;
+}
+.submitBtnPlay{
+  width: 78px;
+  height: 32px;
+  border-radius: 3px;
+  background-color:#f8a50b;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/* 评论列表 */
+.reviewListPlay{
+  padding-top: 25px;
+}
+.reviewListUlPlay li{
+  padding-top:18px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #c3c3c3;
+}
+
+
+.reviewHeadPlay{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:blue;
+}
+.reviewDetailPlay{
+  width: 1030px;
+  margin-left: 13px;
+  font-size: 12px;
+}
+
+.reviewNamePlay{
+  color: #999999;
+}
+.reviewSourcePlay{
+  color: #333333;
+  margin-left: 13px;
+}
+.reviewFontSizePlay{
+  margin-top: 12px;
+  font-size: 14px;
+  color: #333333;
+  width: 1050px;
+  word-break: break-all;
+}
+
+
+
+.reviewCountPlay{
+  text-align: right;
+  margin-top: 14px;
+}
+.reviewLessThree{
+  width: 21px;
+  height: 21px;
+  background-color:#f8a50b;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 21px;
+  text-align: center;
+  border-radius: 50%;
+}
+.greaterThree{
+  width: 40px;
+  height: 21px;
+  background-color:#f8a50b;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 21px;
+  text-align: center;
+  border-radius:10px;
+}
+.myReviewPlay{
+  color:#f8a50b;
+  font-size: 14px;
+  cursor: pointer;
+}
+.reviewDisplayBlockPlay{
+  font-size: 14px;
+}
+
+
+
+
+
+.myReviewBoxPlay{
+  width:256px;
+  height: 99px;
+  padding: 14px 21px 9px 21px;
+  background-color: #e9e9e9;
+  margin-top: 10px;
+  position: relative;
+}
+.triangleIconPlay{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #e9e9e9;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+}
+.myReviewBoxPlay textarea{
+  width: 246px;
+  height:50px;
+  padding: 5px;
+  resize: none;
+  outline: none;
+}
+.myReviewCountPlay{
+  position: absolute;
+  right: 35px;
+  top: 58px;
+  font-size: 12px;
+  color: #bbbbbb;
+}
+.myReviewBoxBtnPlay{
+  margin-top:7px;
+  font-size: 12px;
+  color:#ffffff;
+}
+.myReviewBoxBtnPlay span{
+  width: 58px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.myReviewBoxBtnPlay .myReviewTrue{
+  background-color:#f8a50b;
+}
+.myReviewBoxBtnPlay .myReviewFalse{
+  background-color:#c1c1c1;
+  margin-left:7px;
+}
+
+
+
+
+.reviewReplyPlay{
+  width: 292px;
+  padding: 15px 18px 18px 18px;
+  background-color: #e9e9e9;
+  position: relative;
+  margin-top: 15px;
+}
+.reviewTriangleIconPlay{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #e9e9e9;
+  position: absolute;
+  top: -10px;
+  right:100px;
+}
+.reviewReplyClosePlay{
+  width: 10px;
+  height: 10px;
+  background-image: url('../images/close.png');
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.reviewReplyList li{
+
+}
+.reviewReplyListPlay .reviewReplyLiPlay{
+  border-bottom:1px solid #d1d1d1;
+  padding-top: 15px;
+  padding-bottom: 18px;
+}
+.reviewReplyHeadPlay{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.reviewReplyDetailPlay{
+  width: 235px;
+  margin-left: 12px;
+}
+.reviewReplyContentPlay{
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 10px;
+}
+.reviewReplyNamePlay{
+  font-size: 12px;
+  width:235px;
+  text-align: left;
+}
+.playListDetail li{
+  cursor: pointer;
+  width: 230px;
+}
+
+
+
+.chapterName{
+  width: 200px;
+}
+.chapterName span{
+  font-size: 16px;
+  color: #333333;
+}
+.chapterProgress{
+  width: 800px;
+}
+.el-progress-bar__inner{
+  background-color: #f8a50b;
+}
+.publicChapterLi{
+  margin-bottom: 18px;
+}

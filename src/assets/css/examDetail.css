@@ -1,0 +1,191 @@
+/* 面包屑 */
+.pageNavList{
+	padding: 20px 0;
+	width: 1100px;
+}
+.pageNavOption{
+	height:15px;
+	line-height: 15px;
+}
+.pageNavOption span{
+	font-size: 14px;
+	color: #333333;
+}
+.pageNavOption i{
+	width: 5px;
+	height: 10px;
+	margin: 3px 7px 0;
+	background-image: url('../images/details_right.png');
+}
+.pageNavList .pageNavOption:last-child i{
+	display: none;
+}
+
+.enterExam{
+	height:55px;
+	cursor: pointer;
+}
+.enterExamBtn{
+	padding-top: 5px;
+	margin-top: 12px;
+	width: 95px;
+	height: 23px;
+	border: 1px solid #dcdcdc;
+}
+.enterExamBtn span{
+	font-size: 14px;
+	color:#f8a50b;
+	margin-left: 5px;
+}
+.enterExamBtn i{
+	margin-left: 5px;
+}
+
+
+/* 考试详情列表展示 */
+.titList li{
+	float: left;
+	height: 42px;
+	background-color:#f8a50b;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 42px;
+	text-align: center;
+}
+.examName{
+	width:288px;
+}
+.examAllGrade1{
+	width: 150px;
+}
+.basicGrade{
+	width: 140px;
+}
+.examCount{
+	width: 156px;
+}
+.examTimeLength{
+	width: 120px;
+}
+.examTime{
+	width: 346px;
+}
+.conentList li{
+	float: left;
+	height: 60px;
+	font-size: 14px;
+	background-color:#ffffff;
+	line-height: 60px;
+	text-align: center;
+	border-right: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+}
+.examNameCon{
+	width:286px;
+	font-weight: bold;
+	border-left: 1px solid #e3e3e3;
+}
+.examAllGradeCon{
+	width: 149px;
+}
+.basicGradeCon{
+	width: 139px;
+}
+.examCountCon{
+	width: 155px;
+}
+.examTimeLengthCon{
+	width: 119px;
+}
+.examTimeCon{
+	width: 345px;
+}
+
+
+/* 考前须知 */
+.examBefore,.examDescription{
+	margin-top: 15px;
+}
+.examRecord{
+	margin-top: 15px;
+	margin-bottom: 107px;
+}
+.examBeforeAll,.examDescriptionAll,.examRecordAll{
+	border: 1px solid #d7d6d6;
+}
+.examBeforeNotice,.examDescriptionNotice,.examRecordNotice{
+	padding: 0 62px 30px 13px;
+}
+.examBeforeTit,.examDescriptionTit,.examRecordTit{
+	font-size: 24px;
+	color: #333333;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom: 4px solid #f8a50b;
+}
+.examBeforeCon,.examDescriptionCon{
+	padding-top: 15px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #999999;
+}
+
+.examRecordList{
+	padding-top: 15px;
+}
+.examRecordListCon{
+	height: 130px;
+	overflow:auto;
+}
+
+/* 考试记录 */
+
+
+.examRecordListTit li{
+	float: left;
+	background-color:#dedede;
+	line-height: 36px;
+	height: 36px;
+	text-align: center;
+	font-size: 16px;
+	color: #333333;
+}
+.examRecordIndex{
+	width: 70px;
+}
+.examRecordTime,.examRecordTimeCon{
+	width: 280px;
+}
+.examRecordTimeLength,.examRecordLengthCon{
+	width: 290px;
+}
+.examRecordGrade,.examRecordGradeCon{
+	width: 280px;
+}
+.examRecordHandle{
+	width: 190px;
+}
+.hiddenScroll{
+	width: 13px;
+}
+.examRecordConDetail01{
+	width: 180px;
+	color: #f8a50b;
+}
+.examRecordConDetail02{
+  width: 197px;
+  color: #f8a50b;
+}
+.optionIndex{
+	width: 70px;
+	border-left: 1px solid #d7d6d6;
+}
+.examRecordListConOption li{
+	float: left;
+	line-height: 24px;
+	height: 24px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #d7d6d6;
+	border-right: 1px solid #d7d6d6;
+}
